@@ -1,6 +1,6 @@
 nascimento = [28, "teste", 4.5, false]
 
-puts nascimento.class  # .class informa o tipo primitivo da variável
+puts nascimento.class  # .class informa o objeto da variável nascimento
 
 puts nascimento[0] # acessar os elementos do array
 
