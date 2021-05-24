@@ -1,0 +1,31 @@
+# Dessa forma não precisa criar tudo diretamente na mão (para baixar as dependências)
+
+source 'https://rubygems.org'  # Esse site tem as bibliotecas
+
+gem 'os'
+
+
+=begin
+
+    $ gem install bundle
+
+    Fetching bundle-0.0.1.gem
+    Successfully installed bundle-0.0.1
+    Parsing documentation for bundle-0.0.1
+    Installing ri documentation for bundle-0.0.1
+    Done installing documentation for bundle after 0 seconds
+    1 gem installed
+    $ cd bundle
+    bundle directory$ bundle
+    Fetching gem metadata from https://rubygems.org/....
+    Resolving dependencies...
+    Using bundler 2.1.4
+    Fetching os 1.1.1
+    Installing os 1.1.1
+    Bundle complete! 1 Gemfile dependency, 2 gems now installed.
+    Use `bundle info [gemname]` to see where a bundled gem is installed.
+
+
+    >>> criou o Gemfile.lock automaticamente
+
+=end
