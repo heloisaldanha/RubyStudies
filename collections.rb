@@ -2,7 +2,7 @@
 
 estados = []
 
-estados.push('Rio Grande do Norte')  # inserir elementos no final do array
+estados.push('RN')  # inserir elementos no final do array
 
 
 estados.push('Paraíba', 'Pernambuco', 'Alagoas', 'Bahia', 'Ceará')
@@ -17,7 +17,7 @@ puts ''
 puts estados[2]  # acessando elementos
 
 # editar os elementos
-estados[2] = 'RN'
+estados[2] = 'Rio Grande do Norte'
 
 print estados[1..5]  # acessando por intervalo
 puts ''
